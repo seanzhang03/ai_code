@@ -1,0 +1,11 @@
+chroma_data：chroma数据库存储向量数据	
+datasets：数据集
+FastAPI：学习FastAPI
+FastAPP：利用FastAPI开发
+models：下载的模型
+python基础学习：学python
+rag_app：前端开发的学习
+stu_fastapi：学习Fastapi
+stu_rag：学习rag
+utils：工具包
+zuoye：完成验证验证码功能，验证通过后跳转到Chat.vue页面，并且把当前登录的用户的昵称显示在Chat.vue页面

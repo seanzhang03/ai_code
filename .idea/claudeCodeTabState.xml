@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClaudeCodeTabState">
+    <option name="tabSessions">
+      <map>
+        <entry key="0">
+          <value>
+            <TabSessionState>
+              <option name="provider" value="claude" />
+              <option name="sessionId" value="4c906256-97ad-400b-929a-89dfe976a56a" />
+              <option name="cwd" value="E:\ai_code" />
+              <option name="model" value="claude-fable-5-1[1m]" />
+              <option name="permissionMode" value="plan" />
+            </TabSessionState>
+          </value>
+        </entry>
+        <entry key="1">
+          <value>
+            <TabSessionState>
+              <option name="provider" value="claude" />
+              <option name="sessionId" value="bfcaf637-9f9f-4432-bcc1-277b9be3e137" />
+              <option name="cwd" value="E:\ai_code" />
+              <option name="model" value="claude-sonnet-5[1m]" />
+              <option name="permissionMode" value="plan" />
+            </TabSessionState>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tabCount" value="2" />
+  </component>
+</project>

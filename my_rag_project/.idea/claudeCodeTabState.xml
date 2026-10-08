@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClaudeCodeTabState">
+    <option name="tabSessions">
+      <map>
+        <entry key="0">
+          <value>
+            <TabSessionState>
+              <option name="provider" value="claude" />
+              <option name="sessionId" value="46b95411-4231-412b-8c03-7cc461cc3f64" />
+              <option name="cwd" value="E:\ai_code\my_rag_project" />
+              <option name="model" value="claude-fable-5-1[1m]" />
+              <option name="permissionMode" value="plan" />
+            </TabSessionState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

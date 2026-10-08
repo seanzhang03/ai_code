@@ -1,0 +1,22 @@
+npm create vite@latest my-vue-app -- --template vue
+npm install axios
+npm install element-plus --save
+npm install @element-plus/icons-vue 
+npm install marked
+npm install dompurify 
+
+// axios 配置
+import axios from 'axios'
+axios.defaults.baseURL = 'http://localhost:8000/'
+axios.defaults.headers.post['Content-Type'] = 'application/json'
+axios.defaults.headers.put['Content-Type'] = 'application/json'
+app.config.globalProperties.$axios = axios
+
+//element配置
+import { createApp } from 'vue'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+import App from './App.vue'
+const app = createApp(App)
+app.use(ElementPlus)
+app.mount('#app')
