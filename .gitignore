@@ -1,1 +1,5 @@
 models/
+stu_agent/.env
+my_rag_project/.env
+my_rag_project_copy/.env
+stu_fastapi/.env
