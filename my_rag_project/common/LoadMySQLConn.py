@@ -11,7 +11,7 @@ class LoadMySQLConn:
         self.conn = self.load_mysql_conn()
 
     @staticmethod
-    def load_mysql_conn():
+    def load_mysql_conn(): #端口采用3306的默认值
         return pymysql.connect(
             host = os.getenv("MYSQL_HOST"),  #MySQLip地址
             user = os.getenv("MYSQL_USER"),  #mysql用户名
@@ -26,3 +26,6 @@ class LoadMySQLConn:
         cursor.close()
         conn.close()
 
+if __name__ == '__main__':
+    a = LoadMySQLConn().conn
+    print(a)
